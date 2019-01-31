@@ -29,6 +29,9 @@ var config = {
 		{
 			module: "alert",
 		},
+	 
+
+
 		{
 			module: "updatenotification",
 			position: "top_bar"

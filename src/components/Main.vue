@@ -2,9 +2,9 @@
 <div class="row">
   <div id="mirror_controller" class="col-md-6">
     <div id="hamburger" :class="{isHamActive: isActive.hamburger}" @click="hamburgerToggle">
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
+      <div class="bar">
+      <input type="button" img src="youtube.png" width="40%" ></div>
+
     </div>
     <ul id="control_list" :class="{isListActive: !isActive.hamburger}">
       <li>
